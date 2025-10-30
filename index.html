@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rakkas&family=Tangerine:wght@400;700&display=swap"
     rel="stylesheet">
   <style>
     body {
@@ -21,7 +21,7 @@
 <body>
   <div class="flex flex-col gap-30 justify-center items-center min-h-screen mb-30">
     <!-- first template  -->
-    <div class="shadow-xl w-3xl px-20 py-10 rounded-lg mt-10">
+    <div class="shadow-xl w-3xl px-20 py-10 rounded-lg mt-10 space-y-4">
       <div class="flex justify-between items-center p-4">
         <img src="assets/Vector (2).svg" alt="" class="size-30">
         <div class="flex flex-col items-end text-[#5D5D5D] -space-y-2">
@@ -46,7 +46,7 @@
         doloremque reprehenderit voluptas aspernatur reiciendis, sapiente quod aperiam ea nostrum? Fuga sed ipsam earum
         iure rerum obcaecati, ea aspernatur, quidem aliquid optio, eum beatae impedit? Vitae aliquid veniam modi quae,
         exercitationem, porro impedit ducimus debitis quibusdam nihil laudantium!</p>
-      <div class="mt-20 flex justify-between px-10">
+      <div class="mt-10 flex justify-between px-10">
         <div class="space-y-4">
           <div class="border-b-2 w-40 text-center"></div>
           <p class="text-center text-sm font-medium">DATE</p>
@@ -192,56 +192,74 @@
     </div>
 
     <!-- Fourth template -->
-    <!-- <div class="flex justify-center bg-[#2A2D30] items-center shadow-md w-3xl p-6 rounded-sm text-[#4D4D4D] relative">
-      <div class="bg-transparent px-16 py-10 relative">
-        <img src="assets/Round-corner.svg" class="absolute top-0 left-0 w-full h-full" alt="">
-        <img src="assets/Vector (3).svg" class="absolute top-0 left-6 w-11/12 h-full" alt="">
-        <div class="p-6 w-full flex flex-col items-center gap-6">
-          <div class="flex flex-col items-center">
-            <h2 class="text-5xl tracking-wider font-bold font-['Crimson_Text']">CERTIFICATE</h2>
-            <div class="flex text-center items-center gap-4 text-xl uppercase">
-              <span class="w-10 border-1"></span>
-              <p>of Appreciation</p>
-              <span class="w-10 border-1"></span>
+    <div class="flex justify-center bg-white items-center shadow-md w-3xl p-6 rounded-sm relative">
+      <div>
+        <img src="assets/Ribbon (1).svg" alt="" class="absolute z-10 top-0 left-0">
+        <img src="assets/Ribbon 2.svg" alt="" class="absolute z-10 bottom-0 right-0">
+      </div>
+      <div class="bg-white border-4 border-[#314E854D] p-2">
+        <div class="bg-white border-2 border-[#314E854D] px-8 py-10 relative">
+          <div class="p-6 w-full flex flex-col items-center gap-10">
+            <div class="flex flex-col items-center gap-2">
+              <h2 class="text-5xl tracking-wider font-bold font-['Rakkas']">CERTIFICATE</h2>
+              <p class="uppercase text-center text-[#314E85]">of Achievement</p>
             </div>
-          </div>
-          <p class="uppercase">This certificate is proudly presented to</p>
-          <p class="text-6xl font-['Tangerine'] font-bold border-b-2 border-b-gray-500 pb-2 text-[#FFB145] text-center">
-            Name Surname</p>
-          <p class="text-center max-w-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto
-            quia aspernatur corrupti ducimus a et accusantium saepe explicabo eligendi!
-          </p>
-          <div class="flex gap-10 mt-10 w-full justify-center">
-            <div class="flex items-center gap-2">
-              <p class="border-b-2 w-40 text-center"></p>
-              <p class="text-center text-sm font-medium">SIGNATURE</p>
-            </div>
-            <div class="flex items-center gap-2">
-              <p class="border-b-2 w-40 text-center"></p>
-              <p class="text-center text-sm font-medium">DATE</p>
+            <p class="uppercase">proudly presented to</p>
+            <p
+              class="text-6xl font-semibold w-full border-b-2 border-b-[#314E85] pb-4 text-[#314E85] text-center">
+              Recipient</p>
+            <p class="text-center max-w-2xl">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+              laoreet
+            </p>
+            <div class="flex gap-10 w-full items-center justify-center">
+              <div class="space-y-2">
+                <p class="border-b-1 border-b-[#314E85] w-40 text-center font-medium tracking-wide"> August 26, 2022</p>
+                <p class="text-center text-sm font-medium">DATE</p>
+              </div>
+              <div class="w-1/6">
+                <img src="assets/Medal.svg" alt="">
+              </div>
+              <div class="space-y-2">
+                <p class="border-b-1 border-b-[#314E85] w-40 text-center font-medium tracking-wide">Awarder</p>
+                <p class="text-center text-sm font-medium">SIGNATURE</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- Fifth template -->
     <div
       class="flex justify-center bg-gradient-to-l from-[#161BA0] to-[#AC06F2] items-center shadow-md w-3xl p-10 rounded-sm relative text-[#4D4D4D] font-[Montserrat] overflow-hidden">
 
       <div class="">
-        <div class="w-20 h-20 border-2 [border-image:linear-gradient(to_bottom,#DDB4FB,#6E21E0)_1] absolute left-0 bottom-0 rotate-45 z-40"></div>
-        <div class="w-10 h-10 border-2 [border-image:linear-gradient(to_bottom,#DDB4FB,#6E21E0)_1] absolute left-0 bottom-12 rotate-45 z-40"></div>
-        <div class="w-14 h-14 border-2 [border-image:linear-gradient(to_bottom,#DDB4FB,#6E21E0)_1] absolute left-14 bottom-4 rotate-45 z-40"></div>
-        <div class="w-16 h-50 border-2 [border-image:linear-gradient(to_bottom,#FA54CE,#6E21E0)_1] absolute -left-4 -top-4 rotate-50 z-20"></div>
-        <div class="w-12 h-50 border-2 [border-image:linear-gradient(to_top,#FA54CE,#6E21E0)_1] absolute left-70 -top-20 rotate-70 z-0"></div>
-        <div class="w-30 h-80 bg-gradient-to-b from-[#D604DA] to-[#6013AA] absolute left-2 -top-36 rotate-50 z-10"></div>
+        <div
+          class="w-20 h-20 border-2 [border-image:linear-gradient(to_bottom,#DDB4FB,#6E21E0)_1] absolute left-0 bottom-0 rotate-45 z-40">
+        </div>
+        <div
+          class="w-10 h-10 border-2 [border-image:linear-gradient(to_bottom,#DDB4FB,#6E21E0)_1] absolute left-0 bottom-12 rotate-45 z-40">
+        </div>
+        <div
+          class="w-14 h-14 border-2 [border-image:linear-gradient(to_bottom,#DDB4FB,#6E21E0)_1] absolute left-14 bottom-4 rotate-45 z-40">
+        </div>
+        <div
+          class="w-16 h-50 border-2 [border-image:linear-gradient(to_bottom,#FA54CE,#6E21E0)_1] absolute -left-4 -top-4 rotate-50 z-20">
+        </div>
+        <div
+          class="w-12 h-50 border-2 [border-image:linear-gradient(to_top,#FA54CE,#6E21E0)_1] absolute left-70 -top-20 rotate-70 z-0">
+        </div>
+        <div class="w-30 h-80 bg-gradient-to-b from-[#D604DA] to-[#6013AA] absolute left-2 -top-36 rotate-50 z-10">
+        </div>
         <div class="w-30 h-80 bg-[#C162FF] absolute -left-4 -top-26 rotate-50 z-0"></div>
         <div class="w-50 h-50 bg-[#C162FF] absolute rotate-30 -right-10 -bottom-20 z-0"></div>
-        <div class="w-30 h-50 bg-gradient-to-b from-[#AC06F2] to-[#6013AA] absolute rotate-30 -right-10 -bottom-20 z-10"></div>
-        <div class="w-16 h-50 border-2 [border-image:linear-gradient(to_top,#FA54CE,#6E21E0)_1] absolute right-30 -bottom-12 rotate-50 z-20"></div>
+        <div
+          class="w-30 h-50 bg-gradient-to-b from-[#AC06F2] to-[#6013AA] absolute rotate-30 -right-10 -bottom-20 z-10">
+        </div>
+        <div
+          class="w-16 h-50 border-2 [border-image:linear-gradient(to_top,#FA54CE,#6E21E0)_1] absolute right-30 -bottom-12 rotate-50 z-20">
+        </div>
       </div>
 
       <div class="bg-gradient-to-b from-[#DDB4FB] to-[#FFFFFF] rounded space-y-6 relative p-10 w-full z-30">
